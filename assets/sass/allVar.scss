@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+:root{
+    --top-height: 2rem;
+
+  /*========== Colors ==========*/
+    --hue: 33; //  Yellow: 45   | Red: 4 | Orange: 18  | Green: 118
+    --sat: 50%; // Yellow: 98% | Red: 90% | Orange: 85% | Green: 50%
+    --light: 7%;
+//bg-color --
+    --bg-color: hsl(0, 0%, var(--light));//black
+    --first-color: hsl(var(--hue), 94%, 69%);//orenge
+    --second-color: hsl(225, var(--sat), 50%);//blue
+    --mood-color: hsl(219, var(--set), 83%);//patner-color
+    //text-color --
+    --title-color: hsl(218, 30%, var(--light));//lightDark
+    --text-color: hsl(, var(--set), 28%);//darkgray
+    --text-color-light: hsl(207, 14%, var(--set));//lightgary
+    --container-color: #FFF;
+    
+    /*========== Font and typography ==========*/
+
+    @media screen and (min-width:968px){
+        --biggest-font-size: 5rem;
+        --h2-font: 4.5rem;
+        --h3-font: 3.2rem;
+        --h4-font: 1.8rem;
+        --h5-font: 1.5rem;
+        --normal-font:1rem;
+        --small-font: .900rem;
+        --smaller-font: .80rem;
+    
+    }
+      /*========== Font family ==========*/
+      --font-body: 'Montserrat', sans-serif;  
+      --font-Lato:"Lato",sans-serif;
+    /*========== Font weight ==========*/
+   
+    --font-light:400;
+    --font-semi-bold:600;
+    --font-bold:700 ;
+    
+    /*========== Margenes ==========*/
+
+    --mb-1: 1rem;
+    --mb-full:12rem ;
+
+    /*========== z index ==========*/
+        --z-tooltip: 10;
+        --z-fixed: 100;
+
+        
+    
+}
+
+   
+
+
+
+
+
+

@@ -1,0 +1,45 @@
+*,::before,::after{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+   }
+   html{
+    scroll-behavior: smooth;
+   }
+   body{
+    font-family: var(--body-font);
+       font-size: var(--normal-font);
+       background: var(--container-color);
+       color: var(--text-color);   
+       transition: .5s; //animatio for dark mode
+       
+   }
+   h1,h2,h3{
+       font-weight: var(--font-semi-bold);
+       color: var(--text-color);
+       line-height: 1.5;
+   }
+   ul{
+       list-style: none;
+    
+   }
+   h3{
+    font-family: var(--font-Lato);
+   }
+   h1,h2{
+    font-family: var(--body-font);
+   }
+   a{
+       text-decoration: none;
+       font-family: var(--font-Lato);
+   }
+   p{
+    font-family: var(--font-Lato);
+     line-height: 1.5;
+     letter-spacing: 0.1rem;
+   }
+   img{
+       max-width: 100%;
+       height: auto;
+   }
+  

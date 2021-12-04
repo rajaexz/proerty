@@ -1,0 +1,49 @@
+.section{
+    padding: 4.5rem 0 1rem;
+    
+   &__title-center{
+    line-height: 0.9;
+        font-size: var(--h3-font);
+        color: var(--title-color);
+        text-align: center;
+     
+    }
+}
+.left-heading{
+    line-height: 1;
+    font-size: var(--h3-font);
+}
+
+/*=============== LAYOUT ===============*/
+
+.container{
+    max-width: 1400px;
+    padding: 0 var(--top-height);
+margin: 0 auto;
+}
+.grid{
+display: grid;
+gap: 1.5rem;
+}
+.curve-img{
+    border-radius: 400px 400px 5px 5px;
+  
+   
+}
+.btn-first-color{
+    background-color: var(--first-color) !important;
+  }
+  .flex{
+      display: flex;
+      gap: 1rem;
+  }
+  .change-my-color {
+    fill: rgb(75, 75, 107);
+  }
+
+  .summit__btn{
+    outline: none;
+    border: 3px solid var(--second-color);
+
+    border-radius: 10px ;
+  }

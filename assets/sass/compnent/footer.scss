@@ -1,0 +1,22 @@
+.footer{
+height: 50vh;
+background-color: var(--title-color);
+&__container{
+grid-template-columns: repeat(4,1fr);
+}
+
+&__link{
+  color:white;
+ 
+}
+&__content{
+h3,p{
+    color:white;
+    margin: var(--mb-1) 0px;
+}
+ul li{
+    margin-bottom: .700rem ;
+}
+}
+
+}
